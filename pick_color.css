@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Contenitore_colori{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#Contenitore_colori div{
+    display: inline-block;
+    margin: 40px;
+    cursor: pointer;
+}
+span{
+    padding: 10px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    border: 3px solid white;
+    outline: 2px solid black;
+    color: white;
+}
+.colore_backgroud0{
+    background-color: Darkgreen;
+}
+.colore_backgroud1{
+    background-color: crimson;
+}
+.colore_backgroud2{
+    background-color: Darkorchid;
+}
+.colore_backgroud3{
+    background-color: darkblue;
+}
+h2{
+    background-color: rgb(56, 70, 70);
+}
+#forma{
+    border: 3px solid black;
+    height: 300px;
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+}
+ input[type="color"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.30s;
+  border: none;
+  position: relative;
+  bottom: 25px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+input[type="color"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+#Contenitore_colori div{
+    margin: 0;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
